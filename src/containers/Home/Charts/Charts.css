@@ -1,0 +1,78 @@
+.dashboard-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stat {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+}
+
+.stat h6 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
+.order-details-modal {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chart {
+  width: 48%;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 20px;
+}
+
+.chart h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.pivot-chart {
+  width: 100%;
+}
+
+.ant-table {
+  margin-top: 10px;
+}

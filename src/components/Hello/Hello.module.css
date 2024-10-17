@@ -1,0 +1,30 @@
+/* Basic reset for the list */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Use flexbox for horizontal layout */
+}
+
+li {
+  margin: 20px 15px 0px; /* Space between items */
+}
+
+.Navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.NavbarBrand {
+  font-size: 1.5em; /* Increase brand size */
+  font-weight: bold; /* Make brand text bold */
+}
+
+.SideMenuItemLink {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Bootstrap primary color */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.SideMenuItemLink:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
